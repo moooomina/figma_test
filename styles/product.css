@@ -1,0 +1,31 @@
+main {
+    width:1200px; margin:0 auto;
+    display:flex; justify-content:space-between;
+}
+/* 상품 */
+main .product {}
+main .product a {}
+main .product a img {width:390px; height:300px;}
+/* 상품내용 */
+main .product .info {}
+main .product .info p {letter-spacing: -0.02rem;}
+main .product .info > p {}
+main .product .info h1 {
+    font-size:1.25rem; font-weight:700; letter-spacing: -0.025rem;
+    border-bottom:1px solid #333; padding:10px 0;
+}
+main .product .info .content_top {
+    display:flex; justify-content:space-between;
+}
+main .product .info .content_top p {margin:10px 0;}
+main .product .info .content_bottom {
+    display:flex;
+}
+main .product .info .content_bottom .best {
+    color:#F00; border:1px solid #F00;
+    padding:3px 8px; margin-right:10px;
+}
+main .product .info .content_bottom .order {
+    color:#00AE11; border:1px solid #00AE11;
+    padding:3px 8px;
+}
